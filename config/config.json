@@ -7,11 +7,20 @@
     "dialect": "postgres"
   },
   "test": {
-    "username": "postgres",
-    "password": null,
-    "database": "database_test",
-    "host": "localhost",
-    "dialect": "postgres"
+    "url":"postgres://xhfengtjnrwxvo:8bc58d91c568a41a8518b1deda3023dba36c296ea572dcc30ff3403860b3e031@ec2-54-91-223-99.compute-1.amazonaws.com:5432/d63kcsva1dbc4i",
+    "username": "xhfengtjnrwxvo",
+    "password": "8bc58d91c568a41a8518b1deda3023dba36c296ea572dcc30ff3403860b3e031",
+    "database": "d63kcsva1dbc4i",
+    "host": "ec2-54-91-223-99.compute-1.amazonaws.com",
+    "port":5432,
+    "dialect": "postgres",
+    "dialectOptions":{
+      "ssl": {
+        "require":true,
+        "rejectUnauthorized":false
+      }
+      
+    }
   },
   "production": {
     "username": "postgrest",
