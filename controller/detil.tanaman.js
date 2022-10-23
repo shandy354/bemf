@@ -25,4 +25,3 @@ exports.detilTanaman = async (req,res) => {
         })
     })
 }
-// module.exports = detilTanaman;
